@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+.hero{
+    position:relative;
+    width:100%;
+    height:100vh;
+
+}
+
+nav{
+    display:flex;
+    width:84%;
+    margin:auto;
+    padding:20px 0;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin:10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#000;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:red;
+}
+
+.dete1{
+    margin-left:8%;
+    margin-top: 15%;
+    margin-bottom:20px;
+}
+
+span{
+    color:orange;
+}
+.dete1 p{
+    color:#555;
+    line-height:22px;
+
+}
+
+.dete1 a{
+    background:#212121;
+    padding:10px;
+    text-decoration:none;
+    font-weight:bold;
+    color:#fff;
+    display:inline-block;
+    margin:30px 0;
+    border-radius:5px;
+
+}
+
+
+.image{
+    width:45%;
+    height:80%;
+    position:absolute;
+    bottom:0;
+    right:100px;
+}
+
+.image img{
+    height:100%;
+    position:absolute;
+    left:50%;
+    bottom:0;
+    transform:translateX(-50%);
+    transition: bottom 1s,left 1s;
+}
+
+.images img{
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px; /* add some space to the left of the image */
+  float:right;
+  margin-right:100px;
+  margin-bottom:5000px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Light gray background */
+    color: #333; /* Dark gray text */
+}
+
+.profile,
+.edu,
+.ski,
+.hobby,
+.ach {
+    margin-bottom: 20px;
+}
+
+header,
+section {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+h1, h2 {
+    color: #333; /* Dark gray headings */
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 18px; /* Increased font size */
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+    font-size: 16px; /* Increased font size */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
